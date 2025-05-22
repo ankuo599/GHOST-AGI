@@ -1,0 +1,107 @@
+# GHOST AGI 系统依赖
+
+# 核心依赖
+numpy==1.21.2
+scipy>=1.8.0
+pandas>=1.4.0
+matplotlib>=3.5.0
+scikit-learn==0.24.2
+networkx==2.6.3
+
+# 知识图谱和向量存储
+faiss-cpu>=1.7.0
+sentence-transformers>=2.2.0
+rdflib>=6.2.0
+owlready2>=0.36
+
+# Web界面
+Flask==2.0.1
+Flask-SocketIO>=5.1.0
+python-socketio>=5.5.0
+Werkzeug>=2.0.0
+Jinja2>=3.0.0
+
+# 数据库与存储
+redis>=4.2.0
+pymongo>=4.0.0
+
+# 自然语言处理
+transformers>=4.18.0
+spacy>=3.2.0
+nltk>=3.7.0
+
+# 视觉与音频处理
+torch==1.9.0
+torchvision>=0.12.0
+torchaudio>=0.11.0
+librosa>=0.9.1
+Pillow>=9.0.0
+soundfile>=0.10.3
+pytesseract>=0.3.9
+opencv-python>=4.5.5
+speechrecognition>=3.8.1
+openai-whisper>=20230314
+diffusers>=0.14.0
+accelerate>=0.18.0
+easyocr>=1.6.2
+audiomentations>=0.28.0
+noisereduce>=2.0.1
+deepspeech>=0.9.3
+
+# 视觉模型
+timm>=0.6.13
+
+# AI框架
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# 工具与工具链
+requests>=2.27.0
+aiohttp>=3.8.0
+beautifulsoup4>=4.10.0
+pyyaml>=6.0.0
+toml>=0.10.2
+tqdm>=4.63.0
+
+# 系统与执行
+psutil>=5.9.0
+python-dotenv>=0.20.0
+schedule>=1.1.0
+
+# 代码分析与优化
+ast>=0.0.2
+isort>=5.10.0
+autopep8>=1.6.0
+pylint>=2.13.0
+black>=23.1.0
+unify>=0.5
+radon>=5.1.0
+rope>=1.6.0
+pyright>=1.1.301
+
+# 分布式支持
+celery>=5.2.0
+ray>=1.12.0
+pika>=1.2.0
+
+# 安全与加密
+cryptography>=36.0.0
+bcrypt>=3.2.0
+
+# 测试与调试
+pytest>=7.1.0
+pytest-cov>=3.0.0
+mock>=4.0.0
+hypothesis>=6.54.5
+
+# 文档生成
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+pdoc3>=0.10.0
+
+# 杂项
+joblib>=1.1.0
+regex>=2022.3.0
+sympy>=1.10.0
+tabulate>=0.8.0
+alive-progress>=2.4.0

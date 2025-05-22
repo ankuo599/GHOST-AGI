@@ -1,0 +1,62 @@
+2025-05-18 01:13:03,188 - GHOST-AGI-Test - WARNING - 架构感知模块不可用
+2025-05-18 01:13:03,214 - GHOST-AGI-Test - INFO - ======== 开始GHOST-AGI系统测试 ========
+2025-05-18 01:13:03,214 - GHOST-AGI-Test - INFO - === 开始认知监控模块测试 ===
+2025-05-18 01:13:03,216 - GHOST-AGI-Test - INFO - 运行测试: 认知监控.推理跟踪
+2025-05-18 01:13:03,216 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:13:03,216 - GHOST-AGI-Test - INFO - 运行测试: 认知监控.获取认知跟踪
+2025-05-18 01:13:03,216 - GHOST-AGI-Test - ERROR - 测试错误: 'CognitiveMonitor' object has no attribute 'get_all_reasoning_ids'
+2025-05-18 01:14:19,623 - GHOST-AGI-Test - WARNING - 架构感知模块不可用
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - ======== 开始GHOST-AGI系统测试 ========
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - === 开始认知监控模块测试 ===
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - 运行测试: 认知监控.推理跟踪
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - 运行测试: 认知监控.获取认知跟踪
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - ERROR - 测试错误: 'CognitiveMonitor' object has no attribute 'get_all_reasoning_ids'
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - 测试结果: ERROR (耗时: 0.00秒)
+2025-05-18 01:14:19,633 - GHOST-AGI-Test - INFO - 运行测试: 认知监控.认知偏差检测
+2025-05-18 01:14:19,637 - GHOST-AGI-Test - INFO - 测试结果: FAIL (耗时: 0.00秒)
+2025-05-18 01:14:19,637 - GHOST-AGI-Test - INFO - === 开始推理策略选择器测试 ===
+2025-05-18 01:14:19,637 - GHOST-AGI-Test - INFO - 运行测试: 推理策略选择器.策略选择
+2025-05-18 01:14:19,637 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,637 - GHOST-AGI-Test - INFO - 运行测试: 推理策略选择器.策略效果评估
+2025-05-18 01:14:19,638 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,638 - GHOST-AGI-Test - INFO - 运行测试: 推理策略选择器.策略推荐
+2025-05-18 01:14:19,639 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,639 - GHOST-AGI-Test - INFO - === 开始元学习模块测试 ===
+2025-05-18 01:14:19,639 - GHOST-AGI-Test - INFO - 运行测试: 元学习.学习策略优化
+2025-05-18 01:14:19,639 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,640 - GHOST-AGI-Test - INFO - 运行测试: 元学习.学习效果评估
+2025-05-18 01:14:19,640 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:19,640 - GHOST-AGI-Test - INFO - 运行测试: 元学习.学习模式分析
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.38秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 元学习.认知监控集成
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - WARNING - 跳过架构感知模块测试
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - === 开始跨模态整合模块测试 ===
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 跨模态整合.模态表示创建
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - ERROR - 测试错误: 'CrossModalIntegrator' object has no attribute 'create_text_embedding'
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: ERROR (耗时: 0.00秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 跨模态整合.跨模态对齐
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - ERROR - 测试错误: 'CrossModalIntegrator' object has no attribute 'align_modalities'
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: ERROR (耗时: 0.00秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 跨模态整合.多模态搜索
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - ERROR - 测试错误: 'CrossModalIntegrator' object has no attribute 'search_across_modalities'
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: ERROR (耗时: 0.00秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - === 开始创造性思维引擎测试 ===
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.概念混合
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.类比推理
+2025-05-18 01:14:20,019 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,035 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.发散思维
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.约束放松
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.横向思维
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,036 - GHOST-AGI-Test - INFO - 运行测试: 创造性思维.自动模式选择
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - 测试结果: PASS (耗时: 0.00秒)
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - ======== 系统测试完成 (耗时: 0.40秒) ========
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - 总测试数: 19
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - 通过测试: 14
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - 失败测试: 5
+2025-05-18 01:14:20,038 - GHOST-AGI-Test - INFO - 测试结果已保存到 ghost_agi_test_results.json

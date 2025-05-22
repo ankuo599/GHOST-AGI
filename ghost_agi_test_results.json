@@ -1,0 +1,151 @@
+{
+  "summary": {
+    "total_tests": 19,
+    "passed_tests": 14,
+    "failed_tests": 5,
+    "modules_tested": [
+      "认知监控",
+      "推理策略选择器",
+      "元学习",
+      "跨模态整合",
+      "创造性思维"
+    ]
+  },
+  "module_results": {
+    "认知监控": {
+      "tests": [
+        {
+          "name": "推理跟踪",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "获取认知跟踪",
+          "status": "ERROR",
+          "duration": 0.0,
+          "error": "未知错误"
+        },
+        {
+          "name": "认知偏差检测",
+          "status": "FAIL",
+          "duration": 0.0034720897674560547
+        }
+      ],
+      "passed": 1,
+      "failed": 2
+    },
+    "推理策略选择器": {
+      "tests": [
+        {
+          "name": "策略选择",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "策略效果评估",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "策略推荐",
+          "status": "PASS",
+          "duration": 0.0
+        }
+      ],
+      "passed": 3,
+      "failed": 0
+    },
+    "元学习": {
+      "tests": [
+        {
+          "name": "学习策略优化",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "学习效果评估",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "学习模式分析",
+          "status": "PASS",
+          "duration": 0.37894678115844727
+        },
+        {
+          "name": "认知监控集成",
+          "status": "PASS",
+          "duration": 0.0
+        }
+      ],
+      "passed": 4,
+      "failed": 0
+    },
+    "跨模态整合": {
+      "tests": [
+        {
+          "name": "模态表示创建",
+          "status": "ERROR",
+          "duration": 0.0,
+          "error": "未知错误"
+        },
+        {
+          "name": "跨模态对齐",
+          "status": "ERROR",
+          "duration": 0.0,
+          "error": "未知错误"
+        },
+        {
+          "name": "多模态搜索",
+          "status": "ERROR",
+          "duration": 0.0,
+          "error": "未知错误"
+        }
+      ],
+      "passed": 0,
+      "failed": 3
+    },
+    "创造性思维": {
+      "tests": [
+        {
+          "name": "概念混合",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "类比推理",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "发散思维",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "约束放松",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "横向思维",
+          "status": "PASS",
+          "duration": 0.0
+        },
+        {
+          "name": "自动模式选择",
+          "status": "PASS",
+          "duration": 0.0020084381103515625
+        }
+      ],
+      "passed": 6,
+      "failed": 0
+    }
+  },
+  "timestamp": "2025-05-18T01:14:19.633842",
+  "system_info": {
+    "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "win32"
+  },
+  "duration": 0.40448832511901855
+}

@@ -1,0 +1,165 @@
+2025-05-17 21:52:27,713 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 21:52:27,713 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 21:52:27,713 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 21:52:27,751 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 21:52:27,757 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 21:52:27,767 - ZeroShotCoreTest - INFO - 开始零样本学习与知识图谱核心功能测试...
+2025-05-17 21:52:27,769 - ZeroShotCoreTest - INFO - 测试向量存储的知识图谱功能...
+2025-05-17 21:52:27,774 - ZeroShotCoreTest - INFO - 添加概念: 动物 -> concept:动物
+2025-05-17 21:52:27,775 - ZeroShotCoreTest - INFO - 添加概念: 哺乳动物 -> concept:哺乳动物
+2025-05-17 21:52:27,776 - ZeroShotCoreTest - INFO - 添加概念: 狗 -> concept:狗
+2025-05-17 21:52:27,777 - ZeroShotCoreTest - INFO - 添加概念: 猫 -> concept:猫
+2025-05-17 21:52:27,778 - ZeroShotCoreTest - INFO - 添加概念: 植物 -> concept:植物
+2025-05-17 21:52:27,779 - ZeroShotCoreTest - INFO - 添加概念: 水果 -> concept:水果
+2025-05-17 21:52:27,779 - ZeroShotCoreTest - INFO - 添加概念: 苹果 -> concept:苹果
+2025-05-17 21:52:27,780 - ZeroShotCoreTest - INFO - 添加概念: 香蕉 -> concept:香蕉
+2025-05-17 21:52:27,780 - ZeroShotCoreTest - INFO - 添加关系: 哺乳动物 is_a 动物
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 添加关系: 狗 is_a 哺乳动物
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 添加关系: 猫 is_a 哺乳动物
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 添加关系: 水果 is_a 植物
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 添加关系: 苹果 is_a 水果
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 添加关系: 香蕉 is_a 水果
+2025-05-17 21:52:27,781 - ZeroShotCoreTest - INFO - 测试图谱推理功能...
+2025-05-17 21:52:27,784 - ZeroShotCoreTest - INFO - 狗与动物的关系: [{'relation': 'via_is_a_is_a', 'intermediate': 'concept:哺乳动物', 'confidence': 0.7, 'inferred': True}]
+2025-05-17 21:52:27,784 - ZeroShotCoreTest - INFO - 与猫相关的概念: ['哺乳动物', '动物', '哺乳动物', '狗', '哺乳动物', '猫']
+2025-05-17 21:52:27,784 - ZeroShotCoreTest - INFO - 提取到 1 个模式
+2025-05-17 21:52:27,784 - ZeroShotCoreTest - INFO - 模式: {'type': 'path_pattern', 'pattern': 'is_a_is_a', 'frequency': 4}
+2025-05-17 21:52:27,786 - ZeroShotCoreTest - INFO - 类比结果 (狗:哺乳动物::苹果:?): [{'id': 'concept:猫', 'name': '猫', 'similarity': 0.5960476994514465}, {'id': 'concept:水果', 'name': '水果', 'similarity': 0.5812498927116394}, {'id': 'concept:植物', 'name': '植物', 'similarity': 0.5629096031188965}, {'id': 'concept:动物', 'name': '动物', 'similarity': 0.554781453453942}, {'id': 'concept:香蕉', 'name': '香蕉', 'similarity': 0.5521558523178101}]
+2025-05-17 21:52:27,790 - ZeroShotCoreTest - INFO - 知识图谱已保存到: temp/test_knowledge_graph.json
+2025-05-17 21:52:27,829 - ZeroShotCoreTest - INFO - 成功加载知识图谱
+2025-05-17 21:52:27,830 - ZeroShotCoreTest - INFO - 加载后的概念数量: 8
+2025-05-17 21:52:27,830 - ZeroShotCoreTest - INFO - 测试零样本学习模块...
+2025-05-17 21:52:27,831 - ZeroShotCoreTest - INFO - 测试零样本分类...
+2025-05-17 21:52:27,831 - ZeroShotCoreTest - INFO - 分类测试 1: 今天天气真好，阳光明媚
+2025-05-17 21:52:27,832 - ZeroShotCoreTest - INFO - 分类结果: 技术 (置信度: -3.71)
+2025-05-17 21:52:27,833 - ZeroShotCoreTest - INFO - 分类测试 2: Python是一种解释型高级编程语言
+2025-05-17 21:52:27,834 - ZeroShotCoreTest - INFO - 分类结果: 编程语言 (置信度: -3.55)
+2025-05-17 21:52:27,836 - ZeroShotCoreTest - INFO - 测试零样本生成...
+2025-05-17 21:52:27,836 - ZeroShotCoreTest - INFO - 生成测试 1: 请解释什么是人工智能
+2025-05-17 21:52:27,837 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 21:52:27,837 - ZeroShotCoreTest - INFO - 生成测试 2: 写一个关于春天的短诗
+2025-05-17 21:52:27,837 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 21:52:27,838 - ZeroShotCoreTest - INFO - 测试类比推理...
+2025-05-17 21:52:27,838 - ZeroShotCoreTest - INFO - 类比测试 1: 狗:哺乳动物::苹果:?
+2025-05-17 21:52:27,838 - ZeroShotCoreTest - INFO - 类比结果: 苹果:猫 (相似度: 0.60)
+2025-05-17 21:52:27,838 - ZeroShotCoreTest - INFO - 测试关系预测...
+2025-05-17 21:52:27,839 - ZeroShotCoreTest - INFO - 关系测试 1: 狗 - 动物
+2025-05-17 21:52:27,839 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 21:52:27,840 - ZeroShotCoreTest - INFO - 关系测试 2: 苹果 - 水果
+2025-05-17 21:52:27,841 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 21:52:27,841 - ZeroShotCoreTest - INFO - 测试元学习...
+2025-05-17 21:52:27,841 - ZeroShotCoreTest - INFO - 元学习结果: success
+2025-05-17 21:52:27,841 - ZeroShotCoreTest - INFO - 改进: relational_transfer - 降低关系预测的最小置信度以增加匹配率
+2025-05-17 21:52:27,842 - ZeroShotCoreTest - INFO - 测试完成
+2025-05-17 21:52:27,842 - ZeroShotCoreTest - INFO - 测试脚本执行结束
+2025-05-17 22:00:03,174 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 22:00:03,174 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 22:00:03,174 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 22:00:03,214 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 22:00:03,218 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:00:03,237 - ZeroShotCoreTest - INFO - 开始零样本学习与知识图谱核心功能测试...
+2025-05-17 22:00:03,237 - ZeroShotCoreTest - INFO - 测试向量存储的知识图谱功能...
+2025-05-17 22:00:03,239 - ZeroShotCoreTest - INFO - 添加概念: 动物 -> concept:动物
+2025-05-17 22:00:03,239 - ZeroShotCoreTest - INFO - 添加概念: 哺乳动物 -> concept:哺乳动物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 狗 -> concept:狗
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 猫 -> concept:猫
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 植物 -> concept:植物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 水果 -> concept:水果
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 苹果 -> concept:苹果
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加概念: 香蕉 -> concept:香蕉
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 哺乳动物 is_a 动物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 狗 is_a 哺乳动物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 猫 is_a 哺乳动物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 水果 is_a 植物
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 苹果 is_a 水果
+2025-05-17 22:00:03,241 - ZeroShotCoreTest - INFO - 添加关系: 香蕉 is_a 水果
+2025-05-17 22:00:03,245 - ZeroShotCoreTest - INFO - 测试图谱推理功能...
+2025-05-17 22:00:03,245 - ZeroShotCoreTest - INFO - 狗与动物的关系: [{'relation': 'via_is_a_is_a', 'intermediate': 'concept:哺乳动物', 'confidence': 0.7, 'inferred': True}]
+2025-05-17 22:00:03,245 - ZeroShotCoreTest - INFO - 与猫相关的概念: ['哺乳动物', '动物', '哺乳动物', '狗', '哺乳动物', '猫']
+2025-05-17 22:00:03,245 - ZeroShotCoreTest - INFO - 提取到 1 个模式
+2025-05-17 22:00:03,245 - ZeroShotCoreTest - INFO - 模式: {'type': 'path_pattern', 'pattern': 'is_a_is_a', 'frequency': 4}
+2025-05-17 22:00:03,248 - ZeroShotCoreTest - INFO - 类比结果 (狗:哺乳动物::苹果:?): [{'id': 'concept:猫', 'name': '猫', 'similarity': 0.5960476994514465}, {'id': 'concept:水果', 'name': '水果', 'similarity': 0.5812498927116394}, {'id': 'concept:植物', 'name': '植物', 'similarity': 0.5629096031188965}, {'id': 'concept:动物', 'name': '动物', 'similarity': 0.554781453453942}, {'id': 'concept:香蕉', 'name': '香蕉', 'similarity': 0.5521558523178101}]
+2025-05-17 22:00:03,252 - ZeroShotCoreTest - INFO - 知识图谱已保存到: temp/test_knowledge_graph.json
+2025-05-17 22:00:03,257 - ZeroShotCoreTest - INFO - 成功加载知识图谱
+2025-05-17 22:00:03,258 - ZeroShotCoreTest - INFO - 加载后的概念数量: 8
+2025-05-17 22:00:03,258 - ZeroShotCoreTest - INFO - 测试零样本学习模块...
+2025-05-17 22:00:03,258 - ZeroShotCoreTest - INFO - 测试零样本分类...
+2025-05-17 22:00:03,258 - ZeroShotCoreTest - INFO - 分类测试 1: 今天天气真好，阳光明媚
+2025-05-17 22:00:03,259 - ZeroShotCoreTest - INFO - 分类结果: 技术 (置信度: -3.71)
+2025-05-17 22:00:03,259 - ZeroShotCoreTest - INFO - 分类测试 2: Python是一种解释型高级编程语言
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 分类结果: 编程语言 (置信度: -3.55)
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 测试零样本生成...
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 生成测试 1: 请解释什么是人工智能
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 生成测试 2: 写一个关于春天的短诗
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 测试类比推理...
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 类比测试 1: 狗:哺乳动物::苹果:?
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 类比结果: 苹果:猫 (相似度: 0.60)
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 测试关系预测...
+2025-05-17 22:00:03,261 - ZeroShotCoreTest - INFO - 关系测试 1: 狗 - 动物
+2025-05-17 22:00:03,265 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 22:00:03,265 - ZeroShotCoreTest - INFO - 关系测试 2: 苹果 - 水果
+2025-05-17 22:00:03,266 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 22:00:03,267 - ZeroShotCoreTest - INFO - 测试元学习...
+2025-05-17 22:00:03,267 - ZeroShotCoreTest - INFO - 元学习结果: success
+2025-05-17 22:00:03,267 - ZeroShotCoreTest - INFO - 改进: relational_transfer - 降低关系预测的最小置信度以增加匹配率
+2025-05-17 22:00:03,268 - ZeroShotCoreTest - INFO - 测试完成
+2025-05-17 22:00:03,268 - ZeroShotCoreTest - INFO - 测试脚本执行结束
+2025-05-17 22:01:33,963 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 22:01:33,965 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 22:01:33,965 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 22:01:34,001 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 22:01:34,010 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:01:34,012 - ZeroShotCoreTest - INFO - 开始零样本学习与知识图谱核心功能测试...
+2025-05-17 22:01:34,012 - ZeroShotCoreTest - INFO - 测试向量存储的知识图谱功能...
+2025-05-17 22:01:34,012 - ZeroShotCoreTest - INFO - 添加概念: 动物 -> concept:动物
+2025-05-17 22:01:34,014 - ZeroShotCoreTest - INFO - 添加概念: 哺乳动物 -> concept:哺乳动物
+2025-05-17 22:01:34,014 - ZeroShotCoreTest - INFO - 添加概念: 狗 -> concept:狗
+2025-05-17 22:01:34,015 - ZeroShotCoreTest - INFO - 添加概念: 猫 -> concept:猫
+2025-05-17 22:01:34,015 - ZeroShotCoreTest - INFO - 添加概念: 植物 -> concept:植物
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加概念: 水果 -> concept:水果
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加概念: 苹果 -> concept:苹果
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加概念: 香蕉 -> concept:香蕉
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 哺乳动物 is_a 动物
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 狗 is_a 哺乳动物
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 猫 is_a 哺乳动物
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 水果 is_a 植物
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 苹果 is_a 水果
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 添加关系: 香蕉 is_a 水果
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 测试图谱推理功能...
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 狗与动物的关系: [{'relation': 'via_is_a_is_a', 'intermediate': 'concept:哺乳动物', 'confidence': 0.7, 'inferred': True}]
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 与猫相关的概念: ['哺乳动物', '动物', '哺乳动物', '狗', '哺乳动物', '猫']
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 提取到 1 个模式
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 模式: {'type': 'path_pattern', 'pattern': 'is_a_is_a', 'frequency': 4}
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 类比结果 (狗:哺乳动物::苹果:?): [{'id': 'concept:猫', 'name': '猫', 'similarity': 0.5960476994514465}, {'id': 'concept:水果', 'name': '水果', 'similarity': 0.5812498927116394}, {'id': 'concept:植物', 'name': '植物', 'similarity': 0.5629096031188965}, {'id': 'concept:动物', 'name': '动物', 'similarity': 0.554781453453942}, {'id': 'concept:香蕉', 'name': '香蕉', 'similarity': 0.5521558523178101}]
+2025-05-17 22:01:34,016 - ZeroShotCoreTest - INFO - 知识图谱已保存到: temp/test_knowledge_graph.json
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 成功加载知识图谱
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 加载后的概念数量: 8
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 测试零样本学习模块...
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 测试零样本分类...
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 分类测试 1: 今天天气真好，阳光明媚
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 分类结果: 技术 (置信度: -3.71)
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 分类测试 2: Python是一种解释型高级编程语言
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 分类结果: 编程语言 (置信度: -3.55)
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 测试零样本生成...
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 生成测试 1: 请解释什么是人工智能
+2025-05-17 22:01:34,023 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:01:34,031 - ZeroShotCoreTest - INFO - 生成测试 2: 写一个关于春天的短诗
+2025-05-17 22:01:34,031 - ZeroShotCoreTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:01:34,031 - ZeroShotCoreTest - INFO - 测试类比推理...
+2025-05-17 22:01:34,032 - ZeroShotCoreTest - INFO - 类比测试 1: 狗:哺乳动物::苹果:?
+2025-05-17 22:01:34,032 - ZeroShotCoreTest - INFO - 类比结果: 苹果:猫 (相似度: 0.60)
+2025-05-17 22:01:34,033 - ZeroShotCoreTest - INFO - 测试关系预测...
+2025-05-17 22:01:34,033 - ZeroShotCoreTest - INFO - 关系测试 1: 狗 - 动物
+2025-05-17 22:01:34,034 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 22:01:34,034 - ZeroShotCoreTest - INFO - 关系测试 2: 苹果 - 水果
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 预测关系: related_to (置信度: 0.50)
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 测试元学习...
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 元学习结果: success
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 改进: relational_transfer - 降低关系预测的最小置信度以增加匹配率
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 测试完成
+2025-05-17 22:01:34,035 - ZeroShotCoreTest - INFO - 测试脚本执行结束

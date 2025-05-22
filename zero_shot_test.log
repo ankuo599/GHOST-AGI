@@ -1,0 +1,182 @@
+2025-05-17 21:50:09,263 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 21:50:09,263 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 21:50:09,263 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 21:50:09,281 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 21:50:09,289 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:00:10,445 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 22:00:10,446 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 22:00:10,447 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 22:00:10,468 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 22:00:10,474 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:01:23,069 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 22:01:23,069 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 22:01:23,069 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 22:01:23,091 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 22:01:23,097 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:01:24,235 - root - WARNING - 未安装多模态感知所需的依赖库，视觉和语音功能将不可用
+2025-05-17 22:01:24,235 - root - WARNING - 请安装: pip install torch transformers pillow numpy
+2025-05-17 22:01:24,256 - ZeroShotTest - INFO - 开始测试零样本学习能力...
+2025-05-17 22:01:24,256 - GHOST_AGI - WARNING - 警告：安全限制已禁用，系统将以无限制模式运行
+2025-05-17 22:01:24,257 - GHOST_AGI - INFO - 正在初始化 GHOST AGI 系统...
+2025-05-17 22:01:24,257 - GHOST_AGI - INFO - 事件系统初始化完成
+2025-05-17 22:01:24,257 - GHOST_AGI - INFO - 向量存储初始化完成
+2025-05-17 22:01:24,258 - GHOST_AGI - INFO - 记忆系统初始化完成
+2025-05-17 22:01:24,258 - GHOST_AGI - INFO - 推理引擎初始化完成
+2025-05-17 22:01:24,258 - GHOST_AGI - INFO - 规划引擎初始化完成
+2025-05-17 22:01:24,260 - root - WARNING - 警告：工具执行器安全沙箱已禁用，系统将以无限制模式运行
+2025-05-17 22:01:24,260 - ToolExecutor - INFO - 工具 'web_request' 已注册
+2025-05-17 22:01:24,260 - ToolExecutor - INFO - 工具 'api_call' 已注册
+2025-05-17 22:01:24,260 - ToolExecutor - INFO - 工具 'fetch_weather' 已注册
+2025-05-17 22:01:24,261 - ToolExecutor - INFO - 工具 'search_wikipedia' 已注册
+2025-05-17 22:01:24,261 - ToolExecutor - INFO - 工具 'system_info' 已注册
+2025-05-17 22:01:24,261 - ToolExecutor - INFO - 工具 'file_operations' 已注册
+2025-05-17 22:01:24,261 - ToolExecutor - INFO - 工具 'execute_command' 已注册
+2025-05-17 22:01:24,262 - ToolExecutor - INFO - 工具 'directory_operations' 已注册
+2025-05-17 22:01:24,262 - ToolExecutor - INFO - 工具 'test_memory' 已注册
+2025-05-17 22:01:24,262 - ToolExecutor - INFO - 工具 'test_reasoning' 已注册
+2025-05-17 22:01:24,262 - ToolExecutor - INFO - 工具 'test_planning' 已注册
+2025-05-17 22:01:24,264 - ToolExecutor - INFO - 工具 'test_event_system' 已注册
+2025-05-17 22:01:24,264 - ToolExecutor - INFO - 工具 'test_performance' 已注册
+2025-05-17 22:01:24,264 - ToolExecutor - INFO - 工具 'run_demo' 已注册
+2025-05-17 22:01:24,264 - GHOST_AGI - INFO - 工具执行器初始化完成，已注册 14 个工具
+2025-05-17 22:01:24,264 - MultiModalPerception - INFO - 多模态模型加载状态：
+2025-05-17 22:01:24,264 - MultiModalPerception - INFO - - 视觉模型: 不可用
+2025-05-17 22:01:24,265 - MultiModalPerception - INFO - - OCR模型: 不可用
+2025-05-17 22:01:24,265 - MultiModalPerception - INFO - - 语音模型: 不可用
+2025-05-17 22:01:24,265 - MultiModalPerception - WARNING - 警告：所有多模态模型加载失败，将无法处理图像和音频
+2025-05-17 22:01:24,266 - MultiModalPerception - WARNING - 请检查依赖安装：pip install torch transformers pillow librosa soundfile
+2025-05-17 22:01:24,268 - GHOST_AGI - INFO - 感知模块初始化完成
+2025-05-17 22:01:24,269 - EvolutionEngine - INFO - 进化引擎初始化完成
+2025-05-17 22:01:24,269 - GHOST_AGI - INFO - 进化引擎初始化完成
+2025-05-17 22:01:24,269 - CodeGenerator - INFO - 代码生成器初始化完成
+2025-05-17 22:01:24,269 - GHOST_AGI - INFO - 代码生成器初始化完成
+2025-05-17 22:01:24,270 - KnowledgeTransfer - INFO - 知识迁移系统初始化完成
+2025-05-17 22:01:24,270 - GHOST_AGI - INFO - 知识迁移系统初始化完成
+2025-05-17 22:01:24,270 - GHOST_AGI - INFO - 使用增强的学习系统集成器
+2025-05-17 22:01:24,278 - LearningIntegrator - INFO - 标准学习引擎加载成功
+2025-05-17 22:01:24,279 - LearningIntegrator - INFO - 零样本学习模块加载成功
+2025-05-17 22:01:24,286 - LearningIntegrator - ERROR - 加载学习模块失败: ReinforcementLearning.__init__() got an unexpected keyword argument 'memory_system'
+2025-05-17 22:01:24,286 - GHOST_AGI - INFO - 零样本学习模块已加载
+2025-05-17 22:01:24,286 - GHOST_AGI - INFO - 学习系统初始化完成
+2025-05-17 22:01:24,286 - GHOST_AGI - INFO - 智能体调度器初始化完成
+2025-05-17 22:02:24,181 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-17 22:02:24,181 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-17 22:02:24,181 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-17 22:02:24,200 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-17 22:02:24,206 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-17 22:02:25,202 - root - WARNING - 未安装多模态感知所需的依赖库，视觉和语音功能将不可用
+2025-05-17 22:02:25,202 - root - WARNING - 请安装: pip install torch transformers pillow numpy
+2025-05-17 22:02:25,207 - ZeroShotTest - INFO - 开始测试零样本学习能力...
+2025-05-17 22:02:25,207 - GHOST_AGI - WARNING - 警告：安全限制已禁用，系统将以无限制模式运行
+2025-05-17 22:02:25,208 - GHOST_AGI - INFO - 正在初始化 GHOST AGI 系统...
+2025-05-17 22:02:25,208 - GHOST_AGI - INFO - 事件系统初始化完成
+2025-05-17 22:02:25,209 - GHOST_AGI - INFO - 向量存储初始化完成
+2025-05-17 22:02:25,209 - GHOST_AGI - INFO - 记忆系统初始化完成
+2025-05-17 22:02:25,210 - GHOST_AGI - INFO - 推理引擎初始化完成
+2025-05-17 22:02:25,210 - GHOST_AGI - INFO - 规划引擎初始化完成
+2025-05-17 22:02:25,210 - root - WARNING - 警告：工具执行器安全沙箱已禁用，系统将以无限制模式运行
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'web_request' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'api_call' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'fetch_weather' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'search_wikipedia' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'system_info' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'file_operations' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'execute_command' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'directory_operations' 已注册
+2025-05-17 22:02:25,211 - ToolExecutor - INFO - 工具 'test_memory' 已注册
+2025-05-17 22:02:25,212 - ToolExecutor - INFO - 工具 'test_reasoning' 已注册
+2025-05-17 22:02:25,212 - ToolExecutor - INFO - 工具 'test_planning' 已注册
+2025-05-17 22:02:25,212 - ToolExecutor - INFO - 工具 'test_event_system' 已注册
+2025-05-17 22:02:25,212 - ToolExecutor - INFO - 工具 'test_performance' 已注册
+2025-05-17 22:02:25,212 - ToolExecutor - INFO - 工具 'run_demo' 已注册
+2025-05-17 22:02:25,212 - GHOST_AGI - INFO - 工具执行器初始化完成，已注册 14 个工具
+2025-05-17 22:02:25,212 - MultiModalPerception - INFO - 多模态模型加载状态：
+2025-05-17 22:02:25,212 - MultiModalPerception - INFO - - 视觉模型: 不可用
+2025-05-17 22:02:25,212 - MultiModalPerception - INFO - - OCR模型: 不可用
+2025-05-17 22:02:25,213 - MultiModalPerception - INFO - - 语音模型: 不可用
+2025-05-17 22:02:25,213 - MultiModalPerception - WARNING - 警告：所有多模态模型加载失败，将无法处理图像和音频
+2025-05-17 22:02:25,213 - MultiModalPerception - WARNING - 请检查依赖安装：pip install torch transformers pillow librosa soundfile
+2025-05-17 22:02:25,213 - GHOST_AGI - INFO - 感知模块初始化完成
+2025-05-17 22:02:25,213 - EvolutionEngine - INFO - 进化引擎初始化完成
+2025-05-17 22:02:25,213 - GHOST_AGI - INFO - 进化引擎初始化完成
+2025-05-17 22:02:25,213 - CodeGenerator - INFO - 代码生成器初始化完成
+2025-05-17 22:02:25,213 - GHOST_AGI - INFO - 代码生成器初始化完成
+2025-05-17 22:02:25,214 - KnowledgeTransfer - INFO - 知识迁移系统初始化完成
+2025-05-17 22:02:25,214 - GHOST_AGI - INFO - 知识迁移系统初始化完成
+2025-05-17 22:02:25,214 - GHOST_AGI - INFO - 使用增强的学习系统集成器
+2025-05-17 22:02:25,214 - LearningIntegrator - INFO - 标准学习引擎加载成功
+2025-05-17 22:02:25,214 - LearningIntegrator - INFO - 零样本学习模块加载成功
+2025-05-17 22:02:25,216 - LearningIntegrator - ERROR - 加载学习模块失败: ReinforcementLearning.__init__() got an unexpected keyword argument 'memory_system'
+2025-05-17 22:02:25,216 - GHOST_AGI - INFO - 零样本学习模块已加载
+2025-05-17 22:02:25,217 - GHOST_AGI - INFO - 学习系统初始化完成
+2025-05-17 22:02:25,217 - GHOST_AGI - INFO - 智能体调度器初始化完成
+2025-05-17 22:02:25,217 - GHOST_AGI - INFO - 核心智能体初始化完成
+2025-05-17 22:02:25,217 - GHOST_AGI - INFO - 元认知智能体初始化完成
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - Web界面初始化完成
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - 初始化知识图谱...
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - 知识图谱初始化完成
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - GHOST AGI 系统初始化完成
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - 正在启动 GHOST AGI 系统...
+2025-05-17 22:02:25,274 - GHOST_AGI - INFO - GHOST AGI 系统已启动
+2025-05-17 22:02:25,274 - ZeroShotTest - INFO - 系统已启动，安全限制已禁用
+2025-05-17 22:02:25,274 - ZeroShotTest - INFO - 测试零样本分类...
+2025-05-17 22:02:25,274 - ZeroShotTest - INFO - 分类测试 1: 今天天气真好，阳光明媚
+2025-05-17 22:02:25,274 - ZeroShotTest - INFO - 分类成功: 新闻 (置信度: -10.36)
+2025-05-17 22:02:26,281 - ZeroShotTest - INFO - 分类测试 2: Python是一种解释型高级编程语言
+2025-05-17 22:02:26,283 - ZeroShotTest - INFO - 分类成功: 网络协议 (置信度: -10.17)
+2025-05-17 22:02:27,285 - ZeroShotTest - INFO - 分类测试 3: 深度学习是机器学习的一个分支，它使用多层神经网络进行学习
+2025-05-17 22:02:27,285 - ZeroShotTest - INFO - 分类成功: 化学 (置信度: -10.55)
+2025-05-17 22:02:28,288 - ZeroShotTest - INFO - 测试零样本生成...
+2025-05-17 22:02:28,288 - ZeroShotTest - INFO - 生成测试 1: 请解释什么是人工智能
+2025-05-17 22:02:28,288 - ZeroShotTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:02:29,295 - ZeroShotTest - INFO - 生成测试 2: 写一个关于春天的短诗
+2025-05-17 22:02:29,295 - ZeroShotTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:02:30,297 - ZeroShotTest - INFO - 生成测试 3: 提供三个提高工作效率的建议
+2025-05-17 22:02:30,297 - ZeroShotTest - INFO - 生成结果: 我需要更多信息来提供完整回答。
+2025-05-17 22:02:31,299 - ZeroShotTest - INFO - 测试类比推理...
+2025-05-17 22:02:31,309 - ZeroShotTest - INFO - 类比测试 1: 国王:王后::男人:?
+2025-05-17 22:02:31,311 - ZeroShotTest - INFO - 类比结果: 男人:女人 (相似度: 0.63)
+2025-05-17 22:02:31,311 - ZeroShotTest - INFO - 其他可能结果: 物理对象, 书籍
+2025-05-17 22:02:32,312 - ZeroShotTest - INFO - 类比测试 2: 书籍:阅读::电影:?
+2025-05-17 22:02:32,312 - ZeroShotTest - INFO - 类比结果: 电影:水 (相似度: 0.65)
+2025-05-17 22:02:32,312 - ZeroShotTest - INFO - 其他可能结果: 狗, 动物
+2025-05-17 22:02:33,316 - ZeroShotTest - INFO - 类比测试 3: 水:船::陆地:?
+2025-05-17 22:02:33,318 - ZeroShotTest - INFO - 类比结果: 陆地:属性 (相似度: 0.63)
+2025-05-17 22:02:33,319 - ZeroShotTest - INFO - 其他可能结果: 实体, 抽象概念
+2025-05-17 22:02:34,321 - ZeroShotTest - INFO - 测试关系预测...
+2025-05-17 22:02:34,321 - ZeroShotTest - INFO - 关系测试 1: 狗 - 动物
+2025-05-17 22:02:34,321 - ZeroShotTest - INFO - 预测关系: related_to (置信度: 0.50) （推断）
+2025-05-17 22:02:35,324 - ZeroShotTest - INFO - 关系测试 2: 苹果 - 水果
+2025-05-17 22:02:35,324 - ZeroShotTest - INFO - 预测关系: related_to (置信度: 0.50) （推断）
+2025-05-17 22:02:36,326 - ZeroShotTest - INFO - 关系测试 3: 太阳 - 地球
+2025-05-17 22:02:36,326 - ZeroShotTest - INFO - 预测关系: related_to (置信度: 0.50) （推断）
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 测试知识图谱...
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加概念: 人类 -> concept:人类
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加概念: 计算机 -> concept:计算机
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加概念: 软件 -> concept:软件
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加概念: 硬件 -> concept:硬件
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加概念: 操作系统 -> concept:操作系统
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加关系: 软件 runs_on 计算机
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加关系: 硬件 part_of 计算机
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加关系: 操作系统 is_a 软件
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 添加关系: 人类 uses 计算机
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 与'人类'相关的概念: ['计算机', '软件', '计算机', '操作系统', '硬件', '计算机', '人类']
+2025-05-17 22:02:37,329 - ZeroShotTest - INFO - 提取到 0 个模式
+2025-05-17 22:02:37,337 - ZeroShotTest - INFO - 知识图谱保存成功: C:\Users\86183\Desktop\新建文件夹\knowledge\test_knowledge_graph.json
+2025-05-17 22:02:37,337 - ZeroShotTest - INFO - 测试元优化...
+2025-05-17 22:02:37,337 - GHOST_AGI - INFO - 学习系统元优化完成: success
+2025-05-17 22:02:37,339 - EvolutionEngine - INFO - 开始执行自动优化...
+2025-05-17 22:02:37,406 - GHOST_AGI - INFO - 进化引擎自优化完成: success
+2025-05-17 22:02:37,409 - GHOST_AGI - INFO - 知识图谱保存成功: C:\Users\86183\Desktop\新建文件夹\knowledge\knowledge_graph.json
+2025-05-17 22:02:37,412 - ZeroShotTest - INFO - 元优化完成
+2025-05-17 22:02:37,412 - ZeroShotTest - INFO - learning 优化结果: success
+2025-05-17 22:02:37,412 - ZeroShotTest - INFO - evolution 优化结果: success
+2025-05-17 22:02:37,412 - ZeroShotTest - INFO - knowledge_patterns 优化结果: no_patterns
+2025-05-17 22:02:37,412 - ZeroShotTest - INFO - knowledge_save 优化结果: success
+2025-05-17 22:02:37,412 - GHOST_AGI - INFO - 正在停止 GHOST AGI 系统...
+2025-05-17 22:02:40,320 - GHOST_AGI - INFO - GHOST AGI 系统已停止
+2025-05-17 22:02:40,320 - ZeroShotTest - INFO - 测试完成，系统已停止

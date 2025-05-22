@@ -1,0 +1,1747 @@
+{
+  "conceptual_blending": {
+    "idea_id": "67c400a8-ad90-4523-a177-de65edd33c7f",
+    "timestamp": 1747501666.1581652,
+    "problem": {
+      "type": "design",
+      "description": "设计一种结合智能手机和健康监测的新产品"
+    },
+    "thinking_mode": "conceptual_blending",
+    "idea": {
+      "type": "conceptual_blend",
+      "concept": {
+        "name": "科技_concept_1",
+        "source_concepts": [
+          "科技_concept_1",
+          "医疗_concept_1"
+        ],
+        "source_domains": [
+          "科技",
+          "医疗"
+        ],
+        "properties": [
+          "property_1",
+          "property_0",
+          "property_2"
+        ],
+        "description": "一种结合了科技_concept_1和医疗_concept_1特性的新概念",
+        "detailed_description": "科技_concept_1是一个融合了科技_concept_1和医疗_concept_1的创新概念。它具有以下特性：property_1, property_0, property_2",
+        "applications": [
+          {
+            "title": "科技_concept_1应用场景1",
+            "description": "在医疗领域的应用",
+            "potential": 0.6998244334073496
+          },
+          {
+            "title": "科技_concept_1应用场景2",
+            "description": "在医疗领域的应用",
+            "potential": 0.7044405294728543
+          },
+          {
+            "title": "科技_concept_1应用场景3",
+            "description": "在娱乐领域的应用",
+            "potential": 0.6824959107376226
+          }
+        ]
+      },
+      "novelty": 0.7799587000159375,
+      "usefulness": 0.6305051799041725,
+      "metadata": {
+        "generation_time": 1747501666.1581652,
+        "problem_type": "design",
+        "complexity": 0.3780968631346266
+      },
+      "improvement_directions": [
+        "进一步融合更多领域的概念",
+        "深化概念的核心属性",
+        "探索更多应用场景"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.7799587000159375,
+      "usefulness": 0.6305051799041725,
+      "feasibility": 0.73378711853217,
+      "potential_impact": 0.5548364566068293,
+      "overall_score": 0.6972840881056882,
+      "evaluation_text": "这是一个良好的创意，新颖性很高，实施可行性高。",
+      "strengths": [
+        "融合了不同领域的概念，创新性强",
+        "提供了多个可能的应用场景"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0
+  },
+  "analogical_reasoning": {
+    "idea_id": "27704798-88df-4010-b6e0-84f5244dae32",
+    "timestamp": 1747501666.162744,
+    "problem": {
+      "type": "innovation",
+      "description": "如何将自然界的生态系统原理应用到城市规划中"
+    },
+    "thinking_mode": "analogical_reasoning",
+    "idea": {
+      "type": "analogical_reasoning",
+      "analogy": {
+        "source_relation": {
+          "relation": "enables",
+          "source": "E",
+          "target": "F"
+        },
+        "source_domain": "生物学",
+        "target_domain": "城市规划",
+        "target_concept1": "城市规划_concept_0",
+        "target_concept2": "城市规划_concept_2",
+        "mapped_relation": {
+          "relation": "enables",
+          "source": "城市规划_concept_0",
+          "target": "城市规划_concept_2"
+        },
+        "explanation": "类比：正如 E enables F 在生物学领域，同样地 城市规划_concept_0 enables 城市规划_concept_2 在城市规划领域"
+      },
+      "insights": [
+        {
+          "id": "insight_1",
+          "description": "基于生物学和城市规划的类比见解1",
+          "application": "这一见解可以应用于innovation问题中"
+        },
+        {
+          "id": "insight_2",
+          "description": "基于生物学和城市规划的类比见解2",
+          "application": "这一见解可以应用于innovation问题中"
+        },
+        {
+          "id": "insight_3",
+          "description": "基于生物学和城市规划的类比见解3",
+          "application": "这一见解可以应用于innovation问题中"
+        }
+      ],
+      "novelty": 0.7187851604888579,
+      "usefulness": 0.8183513353119493,
+      "metadata": {
+        "generation_time": 1747501666.162744,
+        "problem_type": "innovation",
+        "complexity": 0.5638693215212858
+      },
+      "improvement_directions": [
+        "寻找更深层次的映射关系",
+        "尝试不同领域的类比",
+        "验证类比推理的有效性"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.7187851604888579,
+      "usefulness": 0.8183513353119493,
+      "feasibility": 0.5268804337440567,
+      "potential_impact": 0.8633119779792866,
+      "overall_score": 0.7173795451319946,
+      "evaluation_text": "这是一个良好的创意，新颖性很高，实用性强，潜在影响力大。",
+      "strengths": [
+        "通过类比推理建立了新的联系",
+        "提供了有价值的见解"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0
+  },
+  "divergent_thinking": {
+    "idea_id": "134b2122-3079-49b3-b073-450821c6c3f6",
+    "timestamp": 1747501666.16475,
+    "problem": {
+      "type": "ideation",
+      "description": "为远程教育开发创新解决方案"
+    },
+    "thinking_mode": "divergent_thinking",
+    "idea": {
+      "type": "divergent_thinking",
+      "central_concept": "远程教育",
+      "branches": [
+        {
+          "perspective": "远程教育的环境视角",
+          "sub_ideas": [
+            "远程教育的环境视角下的子想法1",
+            "远程教育的环境视角下的随机子想法2",
+            "远程教育的环境视角下的子想法3",
+            "远程教育的环境视角下的随机子想法4",
+            "远程教育的环境视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "远程教育的环境视角下的子想法1",
+              "extensions": [
+                "远程教育的环境视角下的子想法1的扩展1",
+                "远程教育的环境视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "远程教育的环境视角下的随机子想法2",
+              "extensions": [
+                "远程教育的环境视角下的随机子想法2的扩展1",
+                "远程教育的环境视角下的随机子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "远程教育的经济视角",
+          "sub_ideas": [
+            "远程教育的经济视角下的随机子想法1",
+            "远程教育的经济视角下的子想法2",
+            "远程教育的经济视角下的子想法3",
+            "远程教育的经济视角下的子想法4",
+            "远程教育的经济视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "远程教育的经济视角下的随机子想法1",
+              "extensions": [
+                "远程教育的经济视角下的随机子想法1的扩展1",
+                "远程教育的经济视角下的随机子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "远程教育的经济视角下的子想法2",
+              "extensions": [
+                "远程教育的经济视角下的子想法2的扩展1",
+                "远程教育的经济视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "远程教育的技术视角",
+          "sub_ideas": [
+            "远程教育的技术视角下的子想法1",
+            "远程教育的技术视角下的子想法2",
+            "远程教育的技术视角下的随机子想法3",
+            "远程教育的技术视角下的子想法4",
+            "远程教育的技术视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "远程教育的技术视角下的子想法1",
+              "extensions": [
+                "远程教育的技术视角下的子想法1的扩展1",
+                "远程教育的技术视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "远程教育的技术视角下的子想法2",
+              "extensions": [
+                "远程教育的技术视角下的子想法2的扩展1",
+                "远程教育的技术视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "远程教育的结构视角",
+          "sub_ideas": [
+            "远程教育的结构视角下的子想法1",
+            "远程教育的结构视角下的随机子想法2",
+            "远程教育的结构视角下的子想法3",
+            "远程教育的结构视角下的子想法4",
+            "远程教育的结构视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "远程教育的结构视角下的子想法1",
+              "extensions": [
+                "远程教育的结构视角下的子想法1的扩展1",
+                "远程教育的结构视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "远程教育的结构视角下的随机子想法2",
+              "extensions": [
+                "远程教育的结构视角下的随机子想法2的扩展1",
+                "远程教育的结构视角下的随机子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "远程教育的社会视角",
+          "sub_ideas": [
+            "远程教育的社会视角下的随机子想法1",
+            "远程教育的社会视角下的子想法2",
+            "远程教育的社会视角下的子想法3",
+            "远程教育的社会视角下的随机子想法4",
+            "远程教育的社会视角下的随机子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "远程教育的社会视角下的随机子想法1",
+              "extensions": [
+                "远程教育的社会视角下的随机子想法1的扩展1",
+                "远程教育的社会视角下的随机子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "远程教育的社会视角下的子想法2",
+              "extensions": [
+                "远程教育的社会视角下的子想法2的扩展1",
+                "远程教育的社会视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        }
+      ],
+      "concept_map": {
+        "nodes": [
+          {
+            "id": "center",
+            "label": "远程教育",
+            "type": "center"
+          },
+          {
+            "id": "p0",
+            "label": "远程教育的环境视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p0_s0",
+            "label": "远程教育的环境视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s0_e0",
+            "label": "远程教育的环境视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s0_e1",
+            "label": "远程教育的环境视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s1",
+            "label": "远程教育的环境视角下的随机子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s1_e0",
+            "label": "远程教育的环境视角下的随机子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s1_e1",
+            "label": "远程教育的环境视角下的随机子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s2",
+            "label": "远程教育的环境视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s3",
+            "label": "远程教育的环境视角下的随机子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s4",
+            "label": "远程教育的环境视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1",
+            "label": "远程教育的经济视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p1_s0",
+            "label": "远程教育的经济视角下的随机子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s0_e0",
+            "label": "远程教育的经济视角下的随机子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s0_e1",
+            "label": "远程教育的经济视角下的随机子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s1",
+            "label": "远程教育的经济视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s1_e0",
+            "label": "远程教育的经济视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s1_e1",
+            "label": "远程教育的经济视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s2",
+            "label": "远程教育的经济视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s3",
+            "label": "远程教育的经济视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s4",
+            "label": "远程教育的经济视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2",
+            "label": "远程教育的技术视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p2_s0",
+            "label": "远程教育的技术视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s0_e0",
+            "label": "远程教育的技术视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s0_e1",
+            "label": "远程教育的技术视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s1",
+            "label": "远程教育的技术视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s1_e0",
+            "label": "远程教育的技术视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s1_e1",
+            "label": "远程教育的技术视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s2",
+            "label": "远程教育的技术视角下的随机子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s3",
+            "label": "远程教育的技术视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s4",
+            "label": "远程教育的技术视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3",
+            "label": "远程教育的结构视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p3_s0",
+            "label": "远程教育的结构视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s0_e0",
+            "label": "远程教育的结构视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s0_e1",
+            "label": "远程教育的结构视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s1",
+            "label": "远程教育的结构视角下的随机子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s1_e0",
+            "label": "远程教育的结构视角下的随机子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s1_e1",
+            "label": "远程教育的结构视角下的随机子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s2",
+            "label": "远程教育的结构视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s3",
+            "label": "远程教育的结构视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s4",
+            "label": "远程教育的结构视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4",
+            "label": "远程教育的社会视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p4_s0",
+            "label": "远程教育的社会视角下的随机子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s0_e0",
+            "label": "远程教育的社会视角下的随机子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s0_e1",
+            "label": "远程教育的社会视角下的随机子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s1",
+            "label": "远程教育的社会视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s1_e0",
+            "label": "远程教育的社会视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s1_e1",
+            "label": "远程教育的社会视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s2",
+            "label": "远程教育的社会视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s3",
+            "label": "远程教育的社会视角下的随机子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s4",
+            "label": "远程教育的社会视角下的随机子想法5",
+            "type": "sub_idea"
+          }
+        ],
+        "edges": [
+          {
+            "source": "center",
+            "target": "p0",
+            "type": "branch"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p0_s0",
+            "target": "p0_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p0_s0",
+            "target": "p0_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p0_s1",
+            "target": "p0_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p0_s1",
+            "target": "p0_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p1",
+            "type": "branch"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p1_s0",
+            "target": "p1_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p1_s0",
+            "target": "p1_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p1_s1",
+            "target": "p1_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p1_s1",
+            "target": "p1_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p2",
+            "type": "branch"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p2_s0",
+            "target": "p2_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p2_s0",
+            "target": "p2_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p2_s1",
+            "target": "p2_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p2_s1",
+            "target": "p2_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p3",
+            "type": "branch"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p3_s0",
+            "target": "p3_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p3_s0",
+            "target": "p3_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p3_s1",
+            "target": "p3_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p3_s1",
+            "target": "p3_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p4",
+            "type": "branch"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p4_s0",
+            "target": "p4_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p4_s0",
+            "target": "p4_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p4_s1",
+            "target": "p4_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p4_s1",
+            "target": "p4_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s4",
+            "type": "sub"
+          }
+        ],
+        "central_concept": "远程教育"
+      },
+      "diversity": 0.41600000000000004,
+      "novelty": 0.8034468181772205,
+      "usefulness": 0.8192613776444201,
+      "metadata": {
+        "generation_time": 1747501666.16475,
+        "problem_type": "ideation",
+        "complexity": 0.5929488028152385
+      },
+      "improvement_directions": [
+        "提高创意的具体实施细节",
+        "考虑更多的应用场景",
+        "评估实现的可行性"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.8034468181772205,
+      "usefulness": 0.8192613776444201,
+      "feasibility": 0.7210647677298145,
+      "potential_impact": 0.662629617150077,
+      "overall_score": 0.7672638212248173,
+      "evaluation_text": "这是一个良好的创意，新颖性很高，实用性强，实施可行性高。",
+      "strengths": [
+        "提供了多样化的思考角度"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0
+  },
+  "constraint_relaxation": {
+    "idea_id": "68bc98d0-3cc8-4190-9cba-b853e7bfec4a",
+    "timestamp": 1747501666.1727023,
+    "problem": {
+      "type": "optimization",
+      "description": "在有限预算和时间内提高软件开发效率"
+    },
+    "thinking_mode": "constraint_relaxation",
+    "idea": {
+      "type": "constraint_relaxation",
+      "original_constraints": [
+        {
+          "name": "预算约束",
+          "description": "项目预算有限",
+          "importance": "high"
+        },
+        {
+          "name": "时间约束",
+          "description": "项目截止日期紧迫",
+          "importance": "high"
+        },
+        {
+          "name": "人力约束",
+          "description": "团队规模固定",
+          "importance": "medium"
+        }
+      ],
+      "relaxed_constraints": [
+        {
+          "name": "预算约束",
+          "description": "项目预算有限",
+          "importance": "high"
+        }
+      ],
+      "relaxations": [
+        {
+          "constraint": {
+            "name": "预算约束",
+            "description": "项目预算有限",
+            "importance": "high"
+          },
+          "relaxation_ideas": [
+            {
+              "id": "relax_预算约束_0",
+              "title": "放松预算约束的方案1",
+              "description": "通过重新定义边界来放松项目预算有限"
+            },
+            {
+              "id": "relax_预算约束_1",
+              "title": "放松预算约束的方案2",
+              "description": "通过重新定义边界来放松项目预算有限"
+            },
+            {
+              "id": "relax_预算约束_2",
+              "title": "放松预算约束的方案3",
+              "description": "通过重新定义边界来放松项目预算有限"
+            }
+          ],
+          "explanation": "对于high重要性的预算约束，提出了3种放松方案。这些方案包括: 1, 2, 3。"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "solution_1",
+          "title": "综合解决方案1",
+          "description": "结合多个约束放松的综合方案",
+          "relaxations_used": [
+            {
+              "id": "relax_预算约束_2",
+              "title": "放松预算约束的方案3",
+              "description": "通过重新定义边界来放松项目预算有限"
+            }
+          ],
+          "implementation_steps": [
+            "实施步骤1: 部署阶段",
+            "实施步骤2: 测试阶段",
+            "实施步骤3: 分析阶段"
+          ]
+        },
+        {
+          "id": "solution_2",
+          "title": "综合解决方案2",
+          "description": "结合多个约束放松的综合方案",
+          "relaxations_used": [
+            {
+              "id": "relax_预算约束_2",
+              "title": "放松预算约束的方案3",
+              "description": "通过重新定义边界来放松项目预算有限"
+            }
+          ],
+          "implementation_steps": [
+            "实施步骤1: 评估阶段",
+            "实施步骤2: 设计阶段",
+            "实施步骤3: 评估阶段"
+          ]
+        }
+      ],
+      "novelty": 0.520704262874061,
+      "usefulness": 0.7973233896575982,
+      "metadata": {
+        "generation_time": 1747501666.1727023,
+        "problem_type": "optimization",
+        "complexity": 0.47311233718541545
+      },
+      "improvement_directions": [
+        "提高创意的具体实施细节",
+        "考虑更多的应用场景",
+        "评估实现的可行性"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.520704262874061,
+      "usefulness": 0.7973233896575982,
+      "feasibility": 0.7345720420636226,
+      "potential_impact": 0.7859069834934841,
+      "overall_score": 0.7352926554372579,
+      "evaluation_text": "这是一个良好的创意，实用性强，实施可行性高，潜在影响力大。",
+      "strengths": [
+        "提供了创新的思考方式"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0
+  },
+  "lateral_thinking": {
+    "idea_id": "b55637fb-a72d-4feb-94e5-6cbc4ad4cb51",
+    "timestamp": 1747501666.1757407,
+    "problem": {
+      "type": "innovation",
+      "description": "重新思考传统办公空间的设计和使用方式"
+    },
+    "thinking_mode": "lateral_thinking",
+    "idea": {
+      "type": "lateral_thinking",
+      "perspective_shifts": [
+        {
+          "element": "重新思考传统办公空间的设计和使用方式",
+          "shift_type": "类比联想",
+          "description": "将重新思考传统办公空间的设计和使用方式从传统视角转换为类比联想视角"
+        }
+      ],
+      "provocations": [
+        {
+          "element": "重新思考传统办公空间的设计和使用方式",
+          "provocation_type": "荒谬联想",
+          "description": "对重新思考传统办公空间的设计和使用方式应用荒谬联想思考",
+          "statement": "假设重新思考传统办公空间的设计和使用方式完全相反"
+        }
+      ],
+      "random_combinations": [],
+      "ideas": [
+        {
+          "type": "perspective_shift",
+          "shift": {
+            "element": "重新思考传统办公空间的设计和使用方式",
+            "shift_type": "类比联想",
+            "description": "将重新思考传统办公空间的设计和使用方式从传统视角转换为类比联想视角"
+          },
+          "idea": {
+            "title": "基于类比联想的重新思考传统办公空间的设计和使用方式新视角",
+            "description": "通过类比联想视角重新思考重新思考传统办公空间的设计和使用方式",
+            "development": "在这个新视角下，重新思考传统办公空间的设计和使用方式可能会导致全新的解决方案",
+            "application": "这种思维方式适用于innovation类问题"
+          }
+        },
+        {
+          "type": "provocation",
+          "provocation": {
+            "element": "重新思考传统办公空间的设计和使用方式",
+            "provocation_type": "荒谬联想",
+            "description": "对重新思考传统办公空间的设计和使用方式应用荒谬联想思考",
+            "statement": "假设重新思考传统办公空间的设计和使用方式完全相反"
+          },
+          "idea": {
+            "title": "基于荒谬联想的挑战性思考",
+            "description": "从假设重新思考传统办公空间的设计和使用方式完全相反这一挑战性假设出发",
+            "development": "这一假设引导我们思考：如果重新思考传统办公空间的设计和使用方式完全不同，会怎样？",
+            "implications": "这种思考打破了常规思维模式，可能启发新的解决方向"
+          }
+        }
+      ],
+      "insights": [
+        {
+          "source_type": "perspective_shift",
+          "description": "从perspective_shift思维中获得的洞见",
+          "content": "基于基于类比联想的重新思考传统办公空间的设计和使用方式新视角的思考发现",
+          "potential_value": 0.6936032158986772
+        },
+        {
+          "source_type": "provocation",
+          "description": "从provocation思维中获得的洞见",
+          "content": "基于基于荒谬联想的挑战性思考的思考发现",
+          "potential_value": 0.6334295189874892
+        }
+      ],
+      "novelty": 0.7058278965782204,
+      "usefulness": 0.8320729036043657,
+      "metadata": {
+        "generation_time": 1747501666.1757407,
+        "problem_type": "innovation",
+        "complexity": 0.3544598935612749
+      },
+      "improvement_directions": [
+        "提高创意的具体实施细节",
+        "考虑更多的应用场景",
+        "评估实现的可行性"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.7058278965782204,
+      "usefulness": 0.8320729036043657,
+      "feasibility": 0.5564631968251181,
+      "potential_impact": 0.8559461720806587,
+      "overall_score": 0.7225657147218468,
+      "evaluation_text": "这是一个良好的创意，新颖性很高，实用性强，潜在影响力大。",
+      "strengths": [
+        "提供了创新的思考方式"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0
+  },
+  "auto_mode": {
+    "idea_id": "4955e39b-a666-4aaf-afb0-647a6ec6e764",
+    "timestamp": 1747501666.1800425,
+    "problem": {
+      "type": "general",
+      "description": "如何在保持社交距离的情况下创造有意义的社交体验"
+    },
+    "thinking_mode": "divergent_thinking",
+    "idea": {
+      "type": "divergent_thinking",
+      "central_concept": "如何在保持社交距离的",
+      "branches": [
+        {
+          "perspective": "如何在保持社交距离的的过程视角",
+          "sub_ideas": [
+            "如何在保持社交距离的的过程视角下的随机子想法1",
+            "如何在保持社交距离的的过程视角下的子想法2",
+            "如何在保持社交距离的的过程视角下的子想法3",
+            "如何在保持社交距离的的过程视角下的随机子想法4",
+            "如何在保持社交距离的的过程视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "如何在保持社交距离的的过程视角下的随机子想法1",
+              "extensions": [
+                "如何在保持社交距离的的过程视角下的随机子想法1的扩展1",
+                "如何在保持社交距离的的过程视角下的随机子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "如何在保持社交距离的的过程视角下的子想法2",
+              "extensions": [
+                "如何在保持社交距离的的过程视角下的子想法2的扩展1",
+                "如何在保持社交距离的的过程视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "如何在保持社交距离的的环境视角",
+          "sub_ideas": [
+            "如何在保持社交距离的的环境视角下的子想法1",
+            "如何在保持社交距离的的环境视角下的子想法2",
+            "如何在保持社交距离的的环境视角下的随机子想法3",
+            "如何在保持社交距离的的环境视角下的子想法4",
+            "如何在保持社交距离的的环境视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "如何在保持社交距离的的环境视角下的子想法1",
+              "extensions": [
+                "如何在保持社交距离的的环境视角下的子想法1的扩展1",
+                "如何在保持社交距离的的环境视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "如何在保持社交距离的的环境视角下的子想法2",
+              "extensions": [
+                "如何在保持社交距离的的环境视角下的子想法2的扩展1",
+                "如何在保持社交距离的的环境视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "如何在保持社交距离的的功能视角",
+          "sub_ideas": [
+            "如何在保持社交距离的的功能视角下的随机子想法1",
+            "如何在保持社交距离的的功能视角下的随机子想法2",
+            "如何在保持社交距离的的功能视角下的子想法3",
+            "如何在保持社交距离的的功能视角下的子想法4",
+            "如何在保持社交距离的的功能视角下的随机子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "如何在保持社交距离的的功能视角下的随机子想法1",
+              "extensions": [
+                "如何在保持社交距离的的功能视角下的随机子想法1的扩展1",
+                "如何在保持社交距离的的功能视角下的随机子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "如何在保持社交距离的的功能视角下的随机子想法2",
+              "extensions": [
+                "如何在保持社交距离的的功能视角下的随机子想法2的扩展1",
+                "如何在保持社交距离的的功能视角下的随机子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "如何在保持社交距离的的结构视角",
+          "sub_ideas": [
+            "如何在保持社交距离的的结构视角下的子想法1",
+            "如何在保持社交距离的的结构视角下的子想法2",
+            "如何在保持社交距离的的结构视角下的随机子想法3",
+            "如何在保持社交距离的的结构视角下的子想法4",
+            "如何在保持社交距离的的结构视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "如何在保持社交距离的的结构视角下的子想法1",
+              "extensions": [
+                "如何在保持社交距离的的结构视角下的子想法1的扩展1",
+                "如何在保持社交距离的的结构视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "如何在保持社交距离的的结构视角下的子想法2",
+              "extensions": [
+                "如何在保持社交距离的的结构视角下的子想法2的扩展1",
+                "如何在保持社交距离的的结构视角下的子想法2的扩展2"
+              ]
+            }
+          ]
+        },
+        {
+          "perspective": "如何在保持社交距离的的用户视角",
+          "sub_ideas": [
+            "如何在保持社交距离的的用户视角下的子想法1",
+            "如何在保持社交距离的的用户视角下的随机子想法2",
+            "如何在保持社交距离的的用户视角下的随机子想法3",
+            "如何在保持社交距离的的用户视角下的子想法4",
+            "如何在保持社交距离的的用户视角下的子想法5"
+          ],
+          "extensions": [
+            {
+              "idea": "如何在保持社交距离的的用户视角下的子想法1",
+              "extensions": [
+                "如何在保持社交距离的的用户视角下的子想法1的扩展1",
+                "如何在保持社交距离的的用户视角下的子想法1的扩展2"
+              ]
+            },
+            {
+              "idea": "如何在保持社交距离的的用户视角下的随机子想法2",
+              "extensions": [
+                "如何在保持社交距离的的用户视角下的随机子想法2的扩展1",
+                "如何在保持社交距离的的用户视角下的随机子想法2的扩展2"
+              ]
+            }
+          ]
+        }
+      ],
+      "concept_map": {
+        "nodes": [
+          {
+            "id": "center",
+            "label": "如何在保持社交距离的",
+            "type": "center"
+          },
+          {
+            "id": "p0",
+            "label": "如何在保持社交距离的的过程视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p0_s0",
+            "label": "如何在保持社交距离的的过程视角下的随机子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s0_e0",
+            "label": "如何在保持社交距离的的过程视角下的随机子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s0_e1",
+            "label": "如何在保持社交距离的的过程视角下的随机子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s1",
+            "label": "如何在保持社交距离的的过程视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s1_e0",
+            "label": "如何在保持社交距离的的过程视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s1_e1",
+            "label": "如何在保持社交距离的的过程视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p0_s2",
+            "label": "如何在保持社交距离的的过程视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s3",
+            "label": "如何在保持社交距离的的过程视角下的随机子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p0_s4",
+            "label": "如何在保持社交距离的的过程视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1",
+            "label": "如何在保持社交距离的的环境视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p1_s0",
+            "label": "如何在保持社交距离的的环境视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s0_e0",
+            "label": "如何在保持社交距离的的环境视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s0_e1",
+            "label": "如何在保持社交距离的的环境视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s1",
+            "label": "如何在保持社交距离的的环境视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s1_e0",
+            "label": "如何在保持社交距离的的环境视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s1_e1",
+            "label": "如何在保持社交距离的的环境视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p1_s2",
+            "label": "如何在保持社交距离的的环境视角下的随机子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s3",
+            "label": "如何在保持社交距离的的环境视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p1_s4",
+            "label": "如何在保持社交距离的的环境视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2",
+            "label": "如何在保持社交距离的的功能视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p2_s0",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s0_e0",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s0_e1",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s1",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s1_e0",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s1_e1",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p2_s2",
+            "label": "如何在保持社交距离的的功能视角下的子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s3",
+            "label": "如何在保持社交距离的的功能视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p2_s4",
+            "label": "如何在保持社交距离的的功能视角下的随机子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3",
+            "label": "如何在保持社交距离的的结构视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p3_s0",
+            "label": "如何在保持社交距离的的结构视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s0_e0",
+            "label": "如何在保持社交距离的的结构视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s0_e1",
+            "label": "如何在保持社交距离的的结构视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s1",
+            "label": "如何在保持社交距离的的结构视角下的子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s1_e0",
+            "label": "如何在保持社交距离的的结构视角下的子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s1_e1",
+            "label": "如何在保持社交距离的的结构视角下的子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p3_s2",
+            "label": "如何在保持社交距离的的结构视角下的随机子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s3",
+            "label": "如何在保持社交距离的的结构视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p3_s4",
+            "label": "如何在保持社交距离的的结构视角下的子想法5",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4",
+            "label": "如何在保持社交距离的的用户视角",
+            "type": "perspective"
+          },
+          {
+            "id": "p4_s0",
+            "label": "如何在保持社交距离的的用户视角下的子想法1",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s0_e0",
+            "label": "如何在保持社交距离的的用户视角下的子想法1的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s0_e1",
+            "label": "如何在保持社交距离的的用户视角下的子想法1的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s1",
+            "label": "如何在保持社交距离的的用户视角下的随机子想法2",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s1_e0",
+            "label": "如何在保持社交距离的的用户视角下的随机子想法2的扩展1",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s1_e1",
+            "label": "如何在保持社交距离的的用户视角下的随机子想法2的扩展2",
+            "type": "extension"
+          },
+          {
+            "id": "p4_s2",
+            "label": "如何在保持社交距离的的用户视角下的随机子想法3",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s3",
+            "label": "如何在保持社交距离的的用户视角下的子想法4",
+            "type": "sub_idea"
+          },
+          {
+            "id": "p4_s4",
+            "label": "如何在保持社交距离的的用户视角下的子想法5",
+            "type": "sub_idea"
+          }
+        ],
+        "edges": [
+          {
+            "source": "center",
+            "target": "p0",
+            "type": "branch"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p0_s0",
+            "target": "p0_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p0_s0",
+            "target": "p0_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p0_s1",
+            "target": "p0_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p0_s1",
+            "target": "p0_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p0",
+            "target": "p0_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p1",
+            "type": "branch"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p1_s0",
+            "target": "p1_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p1_s0",
+            "target": "p1_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p1_s1",
+            "target": "p1_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p1_s1",
+            "target": "p1_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p1",
+            "target": "p1_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p2",
+            "type": "branch"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p2_s0",
+            "target": "p2_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p2_s0",
+            "target": "p2_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p2_s1",
+            "target": "p2_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p2_s1",
+            "target": "p2_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p2",
+            "target": "p2_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p3",
+            "type": "branch"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p3_s0",
+            "target": "p3_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p3_s0",
+            "target": "p3_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p3_s1",
+            "target": "p3_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p3_s1",
+            "target": "p3_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p3",
+            "target": "p3_s4",
+            "type": "sub"
+          },
+          {
+            "source": "center",
+            "target": "p4",
+            "type": "branch"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s0",
+            "type": "sub"
+          },
+          {
+            "source": "p4_s0",
+            "target": "p4_s0_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p4_s0",
+            "target": "p4_s0_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s1",
+            "type": "sub"
+          },
+          {
+            "source": "p4_s1",
+            "target": "p4_s1_e0",
+            "type": "extension"
+          },
+          {
+            "source": "p4_s1",
+            "target": "p4_s1_e1",
+            "type": "extension"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s2",
+            "type": "sub"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s3",
+            "type": "sub"
+          },
+          {
+            "source": "p4",
+            "target": "p4_s4",
+            "type": "sub"
+          }
+        ],
+        "central_concept": "如何在保持社交距离的"
+      },
+      "diversity": 0.41600000000000004,
+      "novelty": 0.7626202261750296,
+      "usefulness": 0.8435678612551881,
+      "metadata": {
+        "generation_time": 1747501666.1800425,
+        "problem_type": "general",
+        "complexity": 0.32621713422828197
+      },
+      "improvement_directions": [
+        "提高创意的具体实施细节",
+        "考虑更多的应用场景",
+        "评估实现的可行性"
+      ]
+    },
+    "evaluation": {
+      "novelty": 0.7626202261750296,
+      "usefulness": 0.8435678612551881,
+      "feasibility": 0.6743319723943291,
+      "potential_impact": 0.7882956076728604,
+      "overall_score": 0.7727311422325845,
+      "evaluation_text": "这是一个良好的创意，新颖性很高，实用性强，潜在影响力大。",
+      "strengths": [
+        "提供了多样化的思考角度"
+      ],
+      "weaknesses": [
+        "可能需要进一步细化和验证"
+      ]
+    },
+    "generation_time": 0.0016949176788330078
+  }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记忆管理 - GHOST AGI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 侧边栏 -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <div class="system-title text-center mb-4">
+                        <h2 class="text-light">GHOST AGI</h2>
+                        <p class="text-light">智能系统</p>
+                    </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                <i class='bx bx-home'></i> 主页
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/status">
+                                <i class='bx bx-stats'></i> 系统状态
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/memory">
+                                <i class='bx bx-brain'></i> 记忆管理
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tools">
+                                <i class='bx bx-wrench'></i> 工具箱
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>系统信息</span>
+                    </h6>
+                    <div class="px-3 py-2 text-light">
+                        <div id="system-status">
+                            <div class="system-info-item">
+                                <small>状态: <span id="status-badge" class="badge bg-success">运行中</span></small>
+                            </div>
+                            <div class="system-info-item">
+                                <small>记忆数量: <span id="memory-count">--</span></small>
+                            </div>
+                            <div class="system-info-item">
+                                <small>运行时间: <span id="uptime">--</span></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 主内容区 -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">记忆管理</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" id="refresh-memory-btn" class="btn btn-sm btn-outline-secondary">刷新</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 记忆类型切换 -->
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <ul class="nav nav-tabs" id="memory-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-memory" type="button" role="tab" aria-controls="all-memory" aria-selected="true">所有记忆</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="short-term-tab" data-bs-toggle="tab" data-bs-target="#short-term-memory" type="button" role="tab" aria-controls="short-term-memory" aria-selected="false">短期记忆</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="long-term-tab" data-bs-toggle="tab" data-bs-target="#long-term-memory" type="button" role="tab" aria-controls="long-term-memory" aria-selected="false">长期记忆</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 搜索和过滤 -->
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <form id="memory-search-form">
+                                    <div class="row g-3 align-items-center">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class='bx bx-search'></i></span>
+                                                <input type="text" id="memory-search-input" class="form-control" placeholder="搜索记忆...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <select id="memory-type-filter" class="form-select">
+                                                <option value="all">所有类型</option>
+                                                <option value="user_input">用户输入</option>
+                                                <option value="system_response">系统响应</option>
+                                                <option value="task">任务</option>
+                                                <option value="plan">计划</option>
+                                                <option value="observation">观察</option>
+                                                <option value="reflection">反思</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <select id="memory-limit" class="form-select">
+                                                <option value="10">显示 10 条</option>
+                                                <option value="20" selected>显示 20 条</option>
+                                                <option value="50">显示 50 条</option>
+                                                <option value="100">显示 100 条</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" class="btn btn-primary w-100">搜索</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 记忆内容区 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-content" id="memory-tab-content">
+                            <!-- 所有记忆 -->
+                            <div class="tab-pane fade show active" id="all-memory" role="tabpanel" aria-labelledby="all-tab">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div id="all-memory-content">
+                                            <div class="text-center p-3">
+                                                <div class="spinner-border text-primary" role="status">
+                                                    <span class="visually-hidden">加载中...</span>
+                                                </div>
+                                                <p class="text-muted mt-2">加载记忆中...</p>
+                                            </div>
+                                        </div>
+                                        <div id="all-memory-pagination" class="d-flex justify-content-center mt-3">
+                                            <!-- 分页控件将在这里动态生成 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 短期记忆 -->
+                            <div class="tab-pane fade" id="short-term-memory" role="tabpanel" aria-labelledby="short-term-tab">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div id="short-term-memory-content">
+                                            <div class="text-center p-3">
+                                                <div class="spinner-border text-primary" role="status">
+                                                    <span class="visually-hidden">加载中...</span>
+                                                </div>
+                                                <p class="text-muted mt-2">加载短期记忆中...</p>
+                                            </div>
+                                        </div>
+                                        <div id="short-term-memory-pagination" class="d-flex justify-content-center mt-3">
+                                            <!-- 分页控件将在这里动态生成 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 长期记忆 -->
+                            <div class="tab-pane fade" id="long-term-memory" role="tabpanel" aria-labelledby="long-term-tab">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div id="long-term-memory-content">
+                                            <div class="text-center p-3">
+                                                <div class="spinner-border text-primary" role="status">
+                                                    <span class="visually-hidden">加载中...</span>
+                                                </div>
+                                                <p class="text-muted mt-2">加载长期记忆中...</p>
+                                            </div>
+                                        </div>
+                                        <div id="long-term-memory-pagination" class="d-flex justify-content-center mt-3">
+                                            <!-- 分页控件将在这里动态生成 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 记忆详情模态框 -->
+                <div class="modal fade" id="memory-detail-modal" tabindex="-1" aria-labelledby="memory-detail-label" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="memory-detail-label">记忆详情</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="memory-detail-content">
+                                    <!-- 记忆详情将在这里动态生成 -->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="memory-detail-delete-btn" class="btn btn-danger">删除记忆</button>
+                                <button type="button" id="memory-detail-promote-btn" class="btn btn-success">提升为长期记忆</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- 记忆项模板 -->
+    <template id="memory-item-template">
+        <div class="memory-item mb-3">
+            <div class="memory-header d-flex justify-content-between align-items-center">
+                <div>
+                    <span class="memory-type badge bg-primary me-2"></span>
+                    <span class="memory-time text-muted"></span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary view-memory-btn" data-memory-id="">查看</button>
+                </div>
+            </div>
+            <div class="memory-content mt-1">
+                <!-- 记忆摘要内容 -->
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/socket.io/client-dist/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/memory.js') }}"></script>
+</body>
+</html> 
