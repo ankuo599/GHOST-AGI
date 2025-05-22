@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "concept:实体",
+      "type": "concept",
+      "name": "实体",
+      "properties": {
+        "abstract": true,
+        "description": "所有事物的基类"
+      }
+    },
+    {
+      "id": "concept:物理对象",
+      "type": "concept",
+      "name": "物理对象",
+      "properties": {
+        "abstract": true,
+        "description": "具有物理属性的实体"
+      }
+    },
+    {
+      "id": "concept:抽象概念",
+      "type": "concept",
+      "name": "抽象概念",
+      "properties": {
+        "abstract": true,
+        "description": "不具有物理形态的思想或观念"
+      }
+    },
+    {
+      "id": "concept:事件",
+      "type": "concept",
+      "name": "事件",
+      "properties": {
+        "abstract": true,
+        "description": "发生在特定时间和地点的事情"
+      }
+    },
+    {
+      "id": "concept:属性",
+      "type": "concept",
+      "name": "属性",
+      "properties": {
+        "abstract": true,
+        "description": "实体的特征或特性"
+      }
+    },
+    {
+      "id": "concept:关系",
+      "type": "concept",
+      "name": "关系",
+      "properties": {
+        "abstract": true,
+        "description": "实体之间的联系"
+      }
+    },
+    {
+      "id": "concept:生物",
+      "type": "concept",
+      "name": "生物",
+      "properties": {
+        "abstract": true,
+        "description": "具有生命的实体"
+      }
+    },
+    {
+      "id": "concept:信息",
+      "type": "concept",
+      "name": "信息",
+      "properties": {
+        "abstract": true,
+        "description": "数据和知识的表示"
+      }
+    },
+    {
+      "id": "concept:国王",
+      "type": "concept",
+      "name": "国王",
+      "properties": {}
+    },
+    {
+      "id": "concept:王后",
+      "type": "concept",
+      "name": "王后",
+      "properties": {}
+    },
+    {
+      "id": "concept:男人",
+      "type": "concept",
+      "name": "男人",
+      "properties": {}
+    },
+    {
+      "id": "concept:女人",
+      "type": "concept",
+      "name": "女人",
+      "properties": {}
+    },
+    {
+      "id": "concept:书籍",
+      "type": "concept",
+      "name": "书籍",
+      "properties": {}
+    },
+    {
+      "id": "concept:阅读",
+      "type": "concept",
+      "name": "阅读",
+      "properties": {}
+    },
+    {
+      "id": "concept:电影",
+      "type": "concept",
+      "name": "电影",
+      "properties": {}
+    },
+    {
+      "id": "concept:观看",
+      "type": "concept",
+      "name": "观看",
+      "properties": {}
+    },
+    {
+      "id": "concept:水",
+      "type": "concept",
+      "name": "水",
+      "properties": {}
+    },
+    {
+      "id": "concept:船",
+      "type": "concept",
+      "name": "船",
+      "properties": {}
+    },
+    {
+      "id": "concept:陆地",
+      "type": "concept",
+      "name": "陆地",
+      "properties": {}
+    },
+    {
+      "id": "concept:汽车",
+      "type": "concept",
+      "name": "汽车",
+      "properties": {}
+    },
+    {
+      "id": "concept:狗",
+      "type": "concept",
+      "name": "狗",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:动物",
+      "type": "concept",
+      "name": "动物",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:苹果",
+      "type": "concept",
+      "name": "苹果",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:水果",
+      "type": "concept",
+      "name": "水果",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:太阳",
+      "type": "concept",
+      "name": "太阳",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:地球",
+      "type": "concept",
+      "name": "地球",
+      "properties": {
+        "temporary": true
+      }
+    },
+    {
+      "id": "concept:人类",
+      "type": "concept",
+      "name": "人类",
+      "properties": {
+        "description": "智能生物"
+      }
+    },
+    {
+      "id": "concept:计算机",
+      "type": "concept",
+      "name": "计算机",
+      "properties": {
+        "description": "电子设备"
+      }
+    },
+    {
+      "id": "concept:软件",
+      "type": "concept",
+      "name": "软件",
+      "properties": {
+        "description": "计算机程序"
+      }
+    },
+    {
+      "id": "concept:硬件",
+      "type": "concept",
+      "name": "硬件",
+      "properties": {
+        "description": "计算机物理组件"
+      }
+    },
+    {
+      "id": "concept:操作系统",
+      "type": "concept",
+      "name": "操作系统",
+      "properties": {
+        "description": "基础系统软件"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "concept:物理对象",
+      "target": "concept:实体",
+      "type": "is_a",
+      "properties": {}
+    },
+    {
+      "source": "concept:物理对象",
+      "target": "concept:属性",
+      "type": "has_property",
+      "properties": {}
+    },
+    {
+      "source": "concept:抽象概念",
+      "target": "concept:实体",
+      "type": "is_a",
+      "properties": {}
+    },
+    {
+      "source": "concept:事件",
+      "target": "concept:实体",
+      "type": "related_to",
+      "properties": {}
+    },
+    {
+      "source": "concept:生物",
+      "target": "concept:物理对象",
+      "type": "is_a",
+      "properties": {}
+    },
+    {
+      "source": "concept:信息",
+      "target": "concept:抽象概念",
+      "type": "is_a",
+      "properties": {}
+    },
+    {
+      "source": "concept:人类",
+      "target": "concept:计算机",
+      "type": "uses",
+      "properties": {}
+    },
+    {
+      "source": "concept:软件",
+      "target": "concept:计算机",
+      "type": "runs_on",
+      "properties": {}
+    },
+    {
+      "source": "concept:硬件",
+      "target": "concept:计算机",
+      "type": "part_of",
+      "properties": {}
+    },
+    {
+      "source": "concept:操作系统",
+      "target": "concept:软件",
+      "type": "is_a",
+      "properties": {}
+    }
+  ]
+}
